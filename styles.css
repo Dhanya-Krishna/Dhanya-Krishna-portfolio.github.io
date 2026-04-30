@@ -103,13 +103,13 @@ a {
   text-decoration:none;
   color:#00ff9c;
 }
-/* Tablet Styles (Small laptops and tablets) */
+
 @media screen and (max-width: 992px) {
     .container {
         width: 90%;
     }
     .hero-section {
-        flex-direction: column; /* Stack image and text vertically */
+        flex-direction: column;
         text-align: center;
     }
 }
